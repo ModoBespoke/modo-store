@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Шерстяное пальто",
+    "price": 8900,
+    "description": "Бежевое пальто из итальянской шерсти с поясом",
+    "images": ["palto-1.jpg", "palto-2.jpg"],
+    "collection": "Осень 2025"
+  },
+  {
+    "id": 2,
+    "name": "Вельветовые брюки",
+    "price": 4500,
+    "description": "Коричневые брюки из мягкого вельвета",
+    "images": ["bruki.jpg"],
+    "collection": "Осень 2025"
+  },
+  {
+    "id": 3,
+    "name": "Шерстяной кардиган",
+    "price": 5600,
+    "description": "Длинный кардиган с поясом",
+    "images": ["cardi-1.jpg", "cardi-2.jpg"],
+    "collection": "Осень 2025"
+  },
+  {
+    "id": 4,
+    "name": "Кожаная сумка",
+    "price": 7200,
+    "description": "Сумка из натуральной кожи с ручкой",
+    "images": ["bag-1.jpg", "bag-2.jpg"],
+    "collection": "Аксессуары"
+  },
+  {
+    "id": 5,
+    "name": "Гигоплатье",
+    "price": 23231200,
+    "description": "описание",
+    "images": ["IMG_2602.jpg"],
+    "collection": "Аксессуары"
+  }
+]

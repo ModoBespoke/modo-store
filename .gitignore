@@ -1,0 +1,7 @@
+# Netlify CMS
+/admin/index.html
+/admin/config.yml
+
+# Системные файлы
+.DS_Store
+node_modules/

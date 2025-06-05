@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modo Store | Осенняя коллекция</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Сайт Modo Store в разработке</h1>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">MODØ</div>
+      <nav class="nav">
+        <a href="#" class="nav-link">Коллекции</a>
+        <a href="#" class="nav-link">О бренде</a>
+        <a href="#" class="nav-link">Контакты</a>
+      </nav>
+      <div class="cart-icon" id="cart-icon">
+        🛒 <span class="cart-count">0</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Осенняя коллекция 2025</h1>
+        <p>Утонченные образы для вашего гардероба</p>
+      </section>
+
+      <section class="products-section">
+        <h2>Новые поступления</h2>
+        <div class="products-grid" id="products-grid">
+          <!-- Товары будут вставлены через JS -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© Modo Store, 2025</p>
+      <div class="social-links">
+        <a href="#">Instagram</a>
+        <a href="#">Telegram</a>
+      </div>
+    </footer>
+
+    <!-- Модальное окно корзины -->
+    <div class="cart-modal" id="cart-modal">
+      <div class="cart-content">
+        <span class="close-btn">&times;</span>
+        <h2>Ваша корзина</h2>
+        <div class="cart-items" id="cart-items"></div>
+        <div class="cart-total">
+          Итого: <span id="cart-total-price">0</span> ₽
+          <button class="checkout-btn">Оформить заказ</button>
+        </div>
+      </div>
+    </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
